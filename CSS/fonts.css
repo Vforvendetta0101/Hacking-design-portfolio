@@ -1,0 +1,7 @@
+@font-face {
+    font-family: geofont;
+    src: url(../fonts/3d_unicode.ttf)
+}
+#geo{
+    font-family: geofont;
+}

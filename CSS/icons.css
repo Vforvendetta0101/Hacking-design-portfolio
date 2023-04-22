@@ -1,0 +1,20 @@
+.icons {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 96px;
+    border-bottom: 2px solid green;
+}
+.fa-brands {
+    color: green;
+    font-size: 3vw;
+    margin-left: 20px;
+}
+.fa-brands:hover{
+    margin-bottom: 4px;
+    color: red;
+    transition: 1s;
+}
+.icon-box{
+    display: inline-block;
+}

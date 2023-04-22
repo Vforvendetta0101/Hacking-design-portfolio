@@ -1,0 +1,41 @@
+.welcome-text  {
+    position: absolute;
+    font-size: 2vw;
+    color: green;
+    text-align: center;
+    background-color: none;
+    width: 700px;
+    left: 400px;
+    top: 160px;
+    text-shadow: 10px 23px 5px #fff;
+}
+.content-wrapper {
+    display: grid;
+    margin-top: 250px;
+    grid-template-columns: repeat(3,minmax(0,3fr));
+}
+.content {
+    width: 400px;
+    margin: 40px;
+    box-sizing: border-box;
+}
+.b-1 {
+    border: 1px solid green;
+    height: 180px;
+}
+.content img {
+    width: 400px;
+    height: 200px;
+}
+.content h1 {
+    font-size: 1.3vw;
+    color: green;
+    margin: 15px;
+    text-align: center;
+}
+.content p {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+}
